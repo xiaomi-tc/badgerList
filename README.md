@@ -1,5 +1,7 @@
 # go.boltdb
 
+The Version for github.com/golang/protobuf should upper than v1.2.0 !
+
 > go get github.com/xiaomi-tc/badgerList
 
 ```
