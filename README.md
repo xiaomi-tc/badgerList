@@ -19,10 +19,10 @@ func main() {
 	zset, err := bucket.SortedSet([]byte("zset"))
 
 	bucket.Set([]byte("key"), []byte("value"))
-	hash.Set([]byte("field"), []byte("value"))
+	//hash.Set([]byte("field"), []byte("value"))
 	list.RPush([]byte("a"), []byte("b"), []byte("c"))
-	zset.Add(Int64ToScore(-1), []byte("a"), Int64ToScore(0), []byte("b"), Int64ToScore(1), []byte("c"))
-	zset.Add(Float64ToScore(-1.5), []byte("a"), Float64ToScore(0f), []byte("b"), Float64ToScore(1.5), []byte("c"))
+	//zset.Add(Int64ToScore(-1), []byte("a"), Int64ToScore(0), []byte("b"), Int64ToScore(1), []byte("c"))
+	//zset.Add(Float64ToScore(-1.5), []byte("a"), Float64ToScore(0f), []byte("b"), Float64ToScore(1.5), []byte("c"))
 }
 
 ```
